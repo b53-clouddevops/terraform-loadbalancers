@@ -3,7 +3,6 @@ module "alb-public" {
   ALB_NAME                 = "robot-public-alb"
   ENV                      = var.ENV
   INTERNAL                 = false 
-  
 }
 
 module "alb-private" {
